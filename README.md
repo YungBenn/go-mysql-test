@@ -39,7 +39,7 @@ Start the server
 #### Get All Mahasiswa
 
 ```http
-  GET /mahasiswa
+  https://www.google.com/
 ```
 
 #### Get Mahasiswa Detail by ID
