@@ -1,4 +1,41 @@
 
+# go-mysql-test
+Internship Technical Test
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/YungBenn/go-mysql-test.git
+```
+
+Go to the project directory
+
+```bash
+  cd go-mysql-test
+```
+
+Install dependencies
+
+```bash
+  go get
+```
+
+Create a `.env` file in the root directory of the project and see `.env.example` for an example
+
+- `PORT`
+
+- `DB_URL`
+
+Start the server
+
+```bash
+  go run main.go
+```
+
+
 ## API Reference
 
 #### Get All Mahasiswa
@@ -50,3 +87,6 @@
 ```http
   DELETE /mahasiswa/delete/${id}
 ```
+
+
+
