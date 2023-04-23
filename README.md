@@ -45,13 +45,13 @@ GET /mahasiswa
 #### Get Mahasiswa Detail by ID
 
 ```http
-  GET /mahasiswa/${id}
+GET /mahasiswa/${id}
 ```
 
 #### Insert New Mahasiswa
 
 ```http
-  POST /mahasiswa/insert
+POST /mahasiswa/insert
 ```
 
 -   Contoh body raw json
@@ -69,7 +69,7 @@ GET /mahasiswa
 #### Update Mahasiswa by ID
 
 ```http
-  PUT /mahasiswa/update/${id}
+PUT /mahasiswa/update/${id}
 ```
 
 -   Contoh body raw json
@@ -87,5 +87,5 @@ GET /mahasiswa
 #### Delete Mahasiswa by ID
 
 ```http
-  DELETE /mahasiswa/delete/${id}
+DELETE /mahasiswa/delete/${id}
 ```
