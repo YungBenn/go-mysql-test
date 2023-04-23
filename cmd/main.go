@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/YungBenn/go-mysql-test/app"
+	"github.com/YungBenn/go-mysql-test/internal/app"
 )
 
 func main() {

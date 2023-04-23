@@ -1,7 +1,6 @@
-
 # go-mysql-test
-Internship Technical Test
 
+Internship Technical Test
 
 ## Run Locally
 
@@ -25,24 +24,23 @@ Install dependencies
 
 Create a `.env` file in the root directory of the project and see `.env.example` for an example
 
-- `PORT`
+-   `PORT`
 
-- `DB_URL`
+-   `DB_URL`
 
 Start the server
 
 ```bash
-  go run main.go
+  go run cmd/main.go
 ```
-
 
 ## API Reference
 
 #### Get All Mahasiswa
+
 ```http
   GET /mahasiswa
 ```
-
 
 #### Get Mahasiswa Detail by ID
 
@@ -55,15 +53,17 @@ Start the server
 ```http
   POST /mahasiswa/insert
 ```
-- Contoh body raw json
+
+-   Contoh body raw json
+
 ```json
-  {
-      "nama": "Ruben",
-      "usia": 21,
-      "gender": 0,
-      "jurusan": "Sistem Informasi",
-      "hobi": "Nonton film",
-  }
+{
+    "nama": "Ruben",
+    "usia": 21,
+    "gender": 0,
+    "jurusan": "Sistem Informasi",
+    "hobi": "Nonton film"
+}
 ```
 
 #### Update Mahasiswa by ID
@@ -71,15 +71,17 @@ Start the server
 ```http
   PUT /mahasiswa/update/${id}
 ```
-- Contoh body raw json
+
+-   Contoh body raw json
+
 ```json
-  {
-      "nama": "Ruben",
-      "usia": 21,
-      "gender": 0,
-      "jurusan": "Sistem Informasi",
-      "hobi": "Main game",
-  }
+{
+    "nama": "Ruben",
+    "usia": 21,
+    "gender": 0,
+    "jurusan": "Sistem Informasi",
+    "hobi": "Main game"
+}
 ```
 
 #### Delete Mahasiswa by ID
@@ -87,6 +89,3 @@ Start the server
 ```http
   DELETE /mahasiswa/delete/${id}
 ```
-
-
-

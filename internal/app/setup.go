@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/YungBenn/go-mysql-test/config"
-	"github.com/YungBenn/go-mysql-test/routes"
+	"github.com/YungBenn/go-mysql-test/internal/routes"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gofiber/fiber/v2"
 )

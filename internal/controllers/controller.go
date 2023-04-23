@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"github.com/YungBenn/go-mysql-test/database"
-	"github.com/YungBenn/go-mysql-test/model"
+	"github.com/YungBenn/go-mysql-test/internal/database"
+	"github.com/YungBenn/go-mysql-test/internal/model"
 	"github.com/gofiber/fiber/v2"
 )
 

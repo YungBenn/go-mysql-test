@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/YungBenn/go-mysql-test/controllers"
+	"github.com/YungBenn/go-mysql-test/internal/controllers"
 	"github.com/gofiber/fiber/v2"
 )
 
